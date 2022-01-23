@@ -18,11 +18,11 @@ public class Factorial {
 
 	public static void main(String[] args) {
 		
-		int input =5;
+	int input =6;
 		// Declared input as 5
 		int fact =1;
 		// Declared integer variable fact as 1
-		for(int i=1;i<=input;i++) 
+		for(int i=input; i>0; i--) 
 		// Iterating from 1 to input	
 		{
 			fact = fact * i;
