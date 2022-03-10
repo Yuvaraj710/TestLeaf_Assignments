@@ -94,7 +94,7 @@ public class CreateLead extends BaseClass {
 		Select dropdown7 = new Select(dd7);
 		dropdown7.selectByValue("IND");
 
-		Thread.sleep(20000);
+		Thread.sleep(2000);
 
 		WebElement dd6 = driver.findElement(By.id("createLeadForm_generalStateProvinceGeoId"));
 		Select dropdown6 = new Select(dd6);
